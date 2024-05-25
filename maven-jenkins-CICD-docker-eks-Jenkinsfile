@@ -38,7 +38,7 @@ pipeline {
         }
         stage('Update Deployment file') {
 			steps {
-				dir('project-1-maven-jenkins-CICD-docker-eks-/Kubernetes-Manifests-file/deploy_svc.yml') {
+				dir('project-1-maven-jenkins-CICD-docker-eks-/Kubernetes-Manifests-file') {
 				    script{
 						sh '''
 							
